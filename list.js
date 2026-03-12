@@ -4,6 +4,11 @@ const clientId = "31stc7lzbqq5fof6gkzevfcjfze4";
 const clientSecret = "          ligma              "; 
 
 
+// -----------------------------------------------------------
+// Function: getAccessToken
+// Purpose: Authenticate with Spotify and obtain an access token
+// The token is required to make requests to Spotify's API
+// -----------------------------------------------------------
 async function getAccessToken() {
   const res = await fetch("https://accounts.spotify.com/api/token", {
     method: "POST",
