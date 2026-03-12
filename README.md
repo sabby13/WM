@@ -1,4 +1,4 @@
 Highly Illegal, wont reccomend if you aint afraid to get sued by Spotify. 
-but anyways i gotaa listen to my songs on WalkMan anyhow !
+but anyways i gotta listen to my songs on WalkMan anyhow !
 
 and yes that ClientSecret is a joke 
