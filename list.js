@@ -62,9 +62,13 @@ async function getPlaylistTracks(playlistUrl, accessToken) {
   return allTracks;
 }
 
-//my playlist
+
+// -----------------------------------------------------------
+// Main Execution Block
+// Immediately Invoked Async Function
+// -----------------------------------------------------------
 (async () => {
-  const playlistLink = "https://open.spotify.com/playlist/3KSnCtd8A8jR416MDruUnt?si=81abdcaab44b40fc";
+  const playlistLink = "https://open.spotify.com/playlist/3KSnCtd8A8jR416MDruUnt?si=81abdcaab44b40fc"; // my playlist
 
   try {
     const token = await getAccessToken();
